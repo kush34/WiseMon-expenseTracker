@@ -44,3 +44,55 @@ Offers tailored suggestions to reduce expenses and increase savings.<br>
 
 ![Screenshot_2024-11-27_10-46-33](https://github.com/user-attachments/assets/8dab52f6-8054-4038-96dd-839840d57e8a)
 
+## **Technologies Used**
+* **Frontend:** React, Tailwind CSS
+* **Backend:** Node.js, Express
+* **Database:** MongoDB
+* **Authentication:** (under work)Firebase Authentication
+
+## **Installation**
+1. Clone repository
+   ```
+   git clone https://github.com/yourusername/WiseMon-Expense-Tracker.git
+   cd WiseMon-Expense-Tracker
+2. Install dependencies:
+   ```
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+3. Set up environment variables:
+   * var to setup in backend file:
+   ```
+   PORT = 
+   JWT_SECRECT = 
+   Frontend_URL = 
+   MONGO_URL =
+   gemini_API =
+   ```
+  * var to setup in frontend
+   ```
+   VITE_URL =
+   ```
+4. Start the development servers:
+   * Frontend:
+     ```
+     cd Frontend
+     npm run dev
+     ```
+   * Backend
+     ```
+     cd Backend
+     npm run dev
+     ```
+# Project Structure
+ ```
+WiseMon-Expense-Tracker/
+├── Frontend/             # React frontend
+├── Backend/              # Node.js backend
+├── README.md   
+```
+ 
+
+
+   
